@@ -1,0 +1,24 @@
+{
+  "series": [
+    {
+      "name": "Una serie di sfortunati eventi",
+      "important": false,
+      "id": 6
+    },
+    {
+      "name": "La casa di carta",
+      "important": true,
+      "id": 11
+    },
+    {
+      "name": "Elite",
+      "important": true,
+      "id": 13
+    },
+    {
+      "name": "The Walking Dead",
+      "important": false,
+      "id": 31
+    }
+  ]
+}
