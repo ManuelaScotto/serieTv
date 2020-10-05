@@ -7,7 +7,7 @@ const App = () => {
   // creo le costanti per i cambio di stato 
   const [series, setSeries] = useState([]) //la stampa delle serie
   const [newSerie, setNewSerie] = useState('') //la creazione delle nuove serie
-  const [showAll, setShowAll] = useState(true) //la modifica della serie
+  const [showAll, setShowAll] = useState(true) //mostra o meno le serie 
 
   ///////////////////////////////////////////////////////////////////////////////////
   // LETTURA
@@ -71,8 +71,7 @@ const App = () => {
     if (r === false) {
       return
     } else {
-      series.filter(h => h.id === id)
-      console.log(id);
+      // series.filter(h => h.id === id)
       serieService.deleteSerie(id) ////////////////////// DELETESERIE metodo creato in serieService.js per cancellare quell'elemento recuperato con l'id
       window.location.reload()  //////////////////////per ricaricare la pagina ed eliminare anche a vista la seria cancellata
     }

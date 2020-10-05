@@ -40,6 +40,6 @@ const deleteSerie = id => {
 }
 
 ///////////////////////////////////////////////////////////////////////////////////
-// il modulo SERIESERVICE restituisce un oggetto con tre funzioni e ogni funzione restituisce una promise dal metodo axios
+// il modulo SERIESERVICE restituisce un oggetto con quattro funzioni e ogni funzione restituisce una promise dal metodo axios
 ///////////////////////////////////////////////////////////////////////////////////
 export default { getAll, create, update, deleteSerie }

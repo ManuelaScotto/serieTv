@@ -4,7 +4,7 @@ Single Page Application con ReactJS implementando la funzionalità CRUD (CREATE,
 
     npm install -g json-server
 
-- Ho installato il package currently a livello locale che ci consente di avviare in contemporanea sia il server che l'applicazione.
+- Ho installato il package concurrently a livello locale che ci consente di avviare in contemporanea sia il server che l'applicazione.
 
     npm install concurrently --save
 
