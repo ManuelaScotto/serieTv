@@ -1,9 +1,4 @@
-Single Page Application con ReactJS implementando la funzionalità CRUD
-
-- Create 
-- Read
-- Update
-- Delete
+Single Page Application con ReactJS implementando la funzionalità CRUD (CREATE, READ, UPDATE, DELETE)
 
 - Ho installato JSON-SERVER a livello globale (simulatore di server) per prelevare i dati da un file in formato JSON e salvarli
 
